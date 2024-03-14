@@ -1,0 +1,29 @@
+{
+  "name": "bharat-colorify",
+  "version": "1.0.0",
+  "description": "colorify Console",
+  "main": "lib/index.js",
+  "types":"lib/index.d.ts" ,
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharat2210/bharat-colorify.git"
+  },
+  "keywords": [
+    "Console",
+    "Color"
+  ],
+  "author": "Bharat Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bharat2210/bharat-colorify/issues"
+  },
+  "homepage": "https://github.com/bharat2210/bharat-colorify#readme",
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  },
+  "files": ["lib/**/*"]
+}
